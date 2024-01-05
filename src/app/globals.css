@@ -51,3 +51,24 @@
 body {
   color: rgb(var(--foreground-rgb));
 }
+
+.hero-image {
+  position: relative;
+  height: 80vh; /* Adjust based on your preference */
+  width: 80vh;
+  background-image: url('/images/hero.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-image:before {
+  content: ' ';
+  position: absolute;
+  height: 80vh;
+  width: 80vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, #202121, rgba(0,0,0,0), #202121 95%);
+}
