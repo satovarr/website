@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const SkillsSection = () => {
     return (
-      <section className="flex h-screen gap-1">
+      <section className="flex h-screen gap-1" id="skills">
         <div className="w-1/2 px-24">
           <h1 className="text-5xl py-16">
             About Me</h1>

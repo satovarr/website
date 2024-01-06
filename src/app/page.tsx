@@ -10,7 +10,7 @@ export default function Home() {
           <h1 className="text-6xl">Santiago Tovar</h1>
           <p className="text-xl mt-2">Full Stack Developer</p>
         </div>
-        <div className="hero-image mt-20 md:w-1/2">{" "}</div>
+        <div className="hero-image mt-20 md:w-1/2 z-20">{" "}</div>
       </section>
 
       <SkillsSection />
