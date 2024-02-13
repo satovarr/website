@@ -6,6 +6,7 @@ import {
   type BlocksContent,
 } from "@strapi/blocks-react-renderer";
   
+
 import { getPosts } from "@/services/strapiAPI";
 import BlogCard from "@/components/BlogCard";
 
